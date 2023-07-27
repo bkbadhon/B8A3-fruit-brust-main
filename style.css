@@ -1,0 +1,127 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* @media screen and ( max-width:768px) {
+    .menu-item{
+        display: none !important;
+    }
+
+    .extra{
+        width: 577px;
+        position: absolute;
+        bottom: -220px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .extra-img img{
+        width: 60px;
+        height: 60px;
+    }
+
+    h2.card-title{
+        font-size: 16px;
+    }
+
+    .hide{
+        display: none !important;
+    }
+
+
+    .deal-of-the-day{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .deal-of-the-day h2{
+        font-size: 30px;
+    }
+
+    .deal-of-the-day p{
+        max-width: 300px;
+    }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .why-choosed{
+        display: flex;
+    }
+
+    .why-choose{
+        width: 350px;
+    }
+}
+
+ */
+
+@media screen and (max-width:576px) {
+    .menu-item li a{
+        display: none;
+    }
+    
+    .whyChoose{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .whyChoose h2, .whyChoose p{
+        text-align: center;
+    }
+
+
+    .searchbar{
+        display: none;
+    }
+
+    .banner{
+        margin-left: 20px;
+    }
+
+    .slide1{
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .extra{
+        display: none !important;
+    }
+    
+}
+
+@media  screen and (max-width:576px) {
+    .meet-text{
+       display: none !important;
+    }
+
+    .deal-of-the-day{
+        text-align: center;
+    }
+
+    .days{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .why-choose img{
+       margin-left: 50px;
+       margin-top: 60px;
+       margin-bottom: 40px;
+    }
+
+    .relative{
+        right: 50px;
+        margin-top: 60px;
+    }
+    
+}
